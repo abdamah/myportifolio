@@ -1,14 +1,13 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
-import { Link as ScrollLink } from "react-scroll";
-import { ArrowRight } from "lucide-react";
 import SocialLinks from "@/components/common/SocialLinks";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import { Link as ScrollLink } from "react-scroll";
 
 const HomeSection = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden pt-10"
+      className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden pt-24"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white"></div>
